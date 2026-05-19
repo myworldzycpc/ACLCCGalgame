@@ -53,7 +53,7 @@ label guide_naming_start:
         $ name_mc = player_input
         qqq "哇，{w=0.25}你的速度可真快，只用了[delta_time:.3f]秒就{...}\n{...}你大概只是乱敲了下键盘吧，{w=0.25}我猜。"
         qqq "也许你是个速通玩家，{w=0.5}谁知道呢？\n{w=1.0}我反正不明白为什么一个galgame也会有人尝试速通。"
-        jump naming_entered
+        jump guide_naming_entered
 
     qqq "——啊，{w=0.25}不好意思，{w=0.5}我得提醒你一下。"
     qqq "尽管这个游戏理论上是完全离线的，{w=0.5}但是——"
