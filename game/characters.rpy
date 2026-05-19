@@ -14,7 +14,7 @@ image ashell side = "char/ashell/avatar.jpg"
 # image ashell normal = "char/ashell/normal.png"
 
 
-default name_baile = "终究是摆了"
+default name_baile = "李星眠"
 define character.baile = DynamicCharacter("name_baile", image="baile", what_prefix="", what_suffix="")
 
 image baile side = "char/baile/avatar.jpg"
