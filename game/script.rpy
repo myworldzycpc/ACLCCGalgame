@@ -1,6 +1,7 @@
 ﻿# The game starts here.
 label start:
     call guide_naming_start from _call_guide_naming_start
+    $ renpy.block_rollback()
     call ch0 from _call_ch0
 
     yoosee "不用照搬历史\n确定人物性格和故事走向就行"
