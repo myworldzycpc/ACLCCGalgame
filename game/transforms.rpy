@@ -300,17 +300,26 @@ transform r11:
 
 # 以下变换用于单独设置每个角色的 缩放 和 Y轴锚点。
 
-transform tyahalf:
+transform tcbaile:
     yanchor 0.5 subpixel True
+    zoom 1.0
 
 transform tcgra:
-    tyahalf
+    yanchor 0.625 subpixel True
     zoom 0.75
 
 transform tclingyun:
-    tyahalf
-    zoom 0.875
+    yanchor 0.5 subpixel True
+    zoom 0.75
+
+transform tcmorin:
+    yanchor 0.5 subpixel True
+    zoom 1.125
 
 transform tcmwam:
-    tyahalf
-    zoom 0.875
+    yanchor 0.5 subpixel True
+    zoom 0.75
+
+transform tcyangsy:
+    yanchor 0.65625 subpixel True
+    zoom 2.5 nearest True

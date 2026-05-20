@@ -2,6 +2,8 @@
 label start:
     stop music
 
+    jump chtest
+
     call guide_naming_start from _call_guide_naming_start
     $ renpy.block_rollback()
     call ch0 from _call_ch0
@@ -27,14 +29,12 @@ label start:
 
 
 label chtest:
-    menu:
-        "?"
-        "0":
-            pass
-        "1":
-            pass
-        "2":
-            pass
-        "3":
-            pass
+    
+    show yangsy flirt zorder 2 at t41
+    show gra zorder 2 at t11
+    show mwam angry zorder 2 at t43
+    show morin zorder 2 at t44
+    show baile zorder 3 at t42
+    ""
+
     return
