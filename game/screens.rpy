@@ -902,7 +902,7 @@ style check_button_text:
 
 style slider_slider:
     hover_sound gui.navigate_sound
-    activate_sound gui.squelch_sound
+    activate_sound gui.navigate_sound
 
     xsize 525
 
