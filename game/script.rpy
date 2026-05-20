@@ -2,7 +2,7 @@
 label start:
     stop music
 
-    jump chtest
+    # jump chtest
 
     call guide_naming_start from _call_guide_naming_start
     $ renpy.block_rollback()
